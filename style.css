@@ -1,0 +1,36 @@
+
+/* makes the text with this class white, aligns it to the center of the container/holder */
+.text-color{
+  color: white;
+  text-align: center;
+}
+
+/* if this class used, the background will turn into an aqua color */
+.background{
+  background-color: aqua;
+}
+
+/* if the class is used, the text will become bold */
+.bold{
+  font-weight: bold;
+}
+
+/* the h3 and the h5 heading won't be bolded, normal text */
+h3 h5 h6{
+  font-weight: normal;
+}
+
+/* if the class is used, the text will be center in the container/holder */
+.center{
+  text-align: center;
+}
+
+/* when the user is hovering over the link, the color will remain white and there will be no change to the text*/
+h6:hover{
+  color: white;
+  text-decoration: none !important;
+}
+
+.margin{
+  
+}

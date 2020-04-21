@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Saketh's Online Engineering Portfolio</title>
+    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- linking the bootstrap code to the html file thatis used-->
+  </head>
+  <body>
+    <div class="container col-sm-12">
+      <nav class="nav nav-fill nav-pills">
+        <!-- the navigation bar that is linked to the other pages on the website-->
+        <a href="index.html" class="nav-link nav-item active">Home</a>
+        <a href="AboutMe.html" class="nav-link nav-item">About Me</a>
+        <a href="Resume.html" class="nav-link nav-item">Resume</a>
+        <a href="Projects.html" class="nav-link nav-item">Projects</a>
+        <a href="ContactMe.html" class="nav-link nav-item">Contact Me</a>
+      </nav>
+    </div>
+    <!-- the jumbotron, linked to the about me page, also contains the title of the website, jumbotron class also associates class of the website to a theme, text-color class makes text inside white-->
+    <div class="jumbotron text-color">
+      <h1>Saketh Ayinaparthi's Online Portfolio</h1>
+      <p>My name is Saketh Ayinaparthi and I am a sophomore at Dublin High School.</p>
+    </div>
+    <!-- the place where the cards are contained in-->
+    <div class="container col-sm-12">
+      <!-- the body within each card, each card is half of the total width, also row class places the cards next to each other rather than on top of each other-->
+      <div class="row">
+        <div class="card flex-fill flex-sm-row col-sm-6">
+          <!-- content of each card-->
+          <div class="card-body">
+            <strong>Work Experience</strong>
+            <h3>Internship</h3>
+            <p>I have been an intern at West Coast World Martial Arts in Pleasanton for the past year. I am slowly working towards earning a position there as an assistant instructor, as teaching kids the something that I love doing. <a href="Resume.html">Click here to continue reading...</a></p>
+          </div>
+          <!--places the image within the card next to the text instead of under it-->
+          <img class="card-img-right" src="Images/wcwma.jpeg">
+        </div>
+        <div class="card flex-fill flex-sm-row col-sm-6">
+          <div class="card-body">
+            <strong>Projects</strong>
+            <h3>Scratch</h3>
+            <p>Here is the link to my <a href="Projects.html">project</a> that was done on Scratch.</p> 
+          </div>
+          <img class="card-img-right" src="Images/scratch.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="card flex-fill flex-sm-row col-sm-6">
+          <div class="card-body">
+            <strong>Work Experience</strong>
+            <h3>Tutoring</h3>
+            <p>During the summer of 2019, I worked at Ace Academy in Dublin and tutored kids in math, english, robotics, spanish, and other subjects that were provided by the business. Helping kids out is something that I enjoy doing, and this has also allowed me to grow as a person, teaching me how to handle different types of people. <a href="Resume.html">Click here to continue reading...</a></p>
+          </div>
+          <div><img class="card-img-right" src="Images/kids.jpg" height="300px" width="350px"></div>
+        </div>
+        <div class="card flex-fill flex-sm-row col-sm-6">
+          <div class="card-body">
+            <strong>Projects</strong>
+            <h3>MIT App Inventor</h3>
+            <p>Here is the link to my <a href="">project</a> on MIT App Inventor.</p>
+          </div>
+          <img class="card-img-right" src="Images/MIT.png" height="350px" width="275px">
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- the footer, images linked to the information that the image corresponds to-->
+  <footer class="jumbotron">
+      <div class="row">
+        <!--spacing from the edge of the screen-->
+        <p class="col-sm-1">
+        <!--the distance where the images are contained in-->
+        <ul class="col-sm-10">
+          <!--each image 50px*50px, is thumbnail-->
+          <!-- first image is email icon, second is the instagram logo, third is the Dublin High mascot and logo-->
+          <img class="col-sm-2" style="margin-right: 20px" src="Images/email.jpg" width="100px" height="150px">
+          <img class="col-sm-2" src="Images/instagram.png" width="100px" height="150px">
+          <img class="col-sm-2 float-right" src="Images/DHS2.png" width="100px" height="150px">
+        </ul>
+      </div>
+  </footer>
+</html>

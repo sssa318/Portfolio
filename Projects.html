@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Saketh's Online Engineering Portfolio</title>
+    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- linking the bootstrap code to the html file thatis used-->
+  </head>
+  <body>
+    <div class="container col-sm-12">
+      <nav class="nav nav-fill nav-pills">
+        <!-- the navigation bar that is linked to the other pages on the website-->
+        <a href="index.html" class="nav-link nav-item">Home</a>
+        <a href="AboutMe.html" class="nav-link nav-item">About Me</a>
+        <a href="Resume.html" class="nav-link nav-item">Resume</a>
+        <a href="Projects.html" class="nav-link nav-item active">Projects</a>
+        <a href="ContactMe.html" class="nav-link nav-item">Contact Me</a>
+      </nav>
+    </div>
+    <!-- jumbtron class allows the part to span the full page, also associates the part of the website with a theme, text-color makes the text within the div white, col-sm-12 allows for a measurement to where parts of the div can be measrued to-->
+    <div class="jumbotron col-sm-12 text-color">
+      <h1><center>Projects</center></h1>
+    </div>
+    <!-- container makes sure content stays within a certain area, colo-sm-12 makes sections in the container so that sections can be assigned to a part, row puts parts of the containers next to each other-->
+    <!--2 contaners that are on top of each other, each one has row element associated with it-->
+    <div class="container col-sm-12 row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-3">
+        <img src="Images/scratchlogo.png">
+      </div>
+      <div class="col-sm-5">
+        <h3>Scratch Project</h3>
+        <h5>Partner: Jason Argao</h5>
+        <p>This project was our introduction to pair programming and how the wrokforce would be like, as we were forced to work with another person. Our game was a story-mode game, with different features within the game.</p>
+      </div>
+    </div>
+    <div class="container col-sm-12 row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-3">
+        <img src="Images/mitapp.jpeg">
+      </div>
+      <div class="col-sm-5">
+        <h3>MIT App Inventor Project</h3>
+        <h5>Partner: Kaif Jeelani</h5>
+        <p>This was our second project in the class, which gave us more experience in working with a partner. Like Scratch, we used blocks, but they were much more complex and specific in their functions. We made a quiz game, which would tell the user what coding language it would suggest based on input to the questions.</p>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div>
+    <div class="container col-sm-12 row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-3">
+        <img src="Images/hangman.webp" height="200px" width="250px">
+      </div>
+      <div class="col-sm-5">
+        <h3>Hangman Mini-Project</h3>
+        <h5>Partner: Oliver Kangwai</h5>
+        <p>This project was our first project in Python, as by now, we were used to working together to finish projects. We worked together to create a hangman game, where the user had a certain number of chances to guess the random word.</p>
+      </div>
+    </div>
+    <div class="container col-sm-12 row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-3">
+        <img src="Images/imageedit.jpg" height="150px" width="250px">
+      </div>
+      <div class="col-sm-5">
+        <h3>Image Artist</h3>
+        <h5>Partner: Surya Kethineni</h5>
+        <p>In this project, we the PIL library to edit an image to complete a task that we chose. They used real-life situations, and using the library, we were able to make a collage that represented the family and the individuals in it.</p>
+      </div>
+    </div>
+          
+  </body>
+  <!-- the footer, images linked to the information that the image corresponds to-->
+  <footer class="jumbotron">
+      <div class="row">
+        <!--spacing from the edge of the screen-->
+        <p class="col-sm-1">
+        <!--the distance where the images are contained in-->
+        <ul class="col-sm-10">
+          <!--each image 50px*50px, is thumbnail-->
+          <!-- first image is email icon, second is the instagram logo, third is the Dublin High mascot and logo-->
+          <img class="col-sm-2" style="margin-right: 20px" src="Images/email.jpg" width="100px" height="150px">
+          <img class="col-sm-2" src="Images/instagram.png" width="100px" height="150px">
+          <img class="col-sm-2 float-right" src="Images/DHS2.png" width="100px" height="150px">
+        </ul>
+      </div>
+  </footer>
+</html>
